@@ -6,6 +6,8 @@ we make sure our queue system is performant, scalable and easy to maintain.
 The worker that process each message in the queue uses Firestore `stream()` method to fetch the messages from the queue
 collection so it can process a lot of data without overloading the database.
 
+> NOTE: This still on alpha version and haven't been tested in production yet. Use it under you own risk. **Feel free to contribute :)**
+
 ## Configuration
 
 ### Worker
